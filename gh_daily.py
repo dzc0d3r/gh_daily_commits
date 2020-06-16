@@ -4,7 +4,7 @@ import time
 
 def everyDay():
     while True:
-        os.system("bash gh_wall.sh")
+        os.system("bash /home/m4dc0d3r/Documents/SCRIPTS/commit-every-day/gh_wall.sh")
         time.sleep(10800)
 
 
