@@ -1,7 +1,7 @@
 import os
 def everyDay():
     while True:
-        os.system("bash commit.sh")
+        os.system("bash gh_wall.sh")
         #time.sleep(28800)
         print("Success !!")
         break
